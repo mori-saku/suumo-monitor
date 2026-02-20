@@ -1,0 +1,12 @@
+.env
+.venv/
+data/suumo.db
+data/suumo.db-shm
+data/suumo.db-wal
+data/*.log
+data/launchd.*
+data/cron.log
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
