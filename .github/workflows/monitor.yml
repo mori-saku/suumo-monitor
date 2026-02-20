@@ -2,7 +2,7 @@ name: SUUMO Monitor
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # 10分ごと
+    - cron: '0 * * * *'  # 1時間ごと
   workflow_dispatch:  # 手動実行ボタン
 
 jobs:
